@@ -1,6 +1,9 @@
 # transient-response-simulation
 Simulation of transient response of a circuit in MATLAB
 
+Team members: Rambod Azimi - Ahmad Aslam – Trevor Tabah
+
+
 The primary goal of this project is to simulate the transient response for a provided circuit. The approach to simulating the transient response of this circuit is to solve the Modified Nodal Analysis (MNA) equations shown in Equation 1 and the compact form in Equation 2. Hence, we are going to compute the transient response for all the voltage nodes, namely, V1, V2, and V3.
 
 We aim to identify the most effective technique for accurately and efficiently solving the non-linear system of equations. The choices of the algorithm were made in terms of practicality of approach and efficiency, so all approaches use the Newton-Raphson method, with added uses of the forward, backward Euler and trapezoidal rules. We aim to check for relative accuracy and CPU cost when using these three in addition to the N-R method. The separate approaches and testing solutions are described in detail in the following report.
